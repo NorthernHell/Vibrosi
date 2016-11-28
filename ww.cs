@@ -10,28 +10,54 @@ path_usb="\\Hard Disk\\";
 //path_usb="D:\\Projects\\Vibrosi\\PCData\\Hard Disk\\";
 
 
-//инверсия аварий газанализатора
-//if (IO_DI16_1_ch_01_gazanal_a==0){G_A=1;}else{G_A=0;}
+
 ///////if (IO_DI16_1_ch_06_neisp_rashod_a==0){R_A=0;}else{G_A=1;}
 ///////if (IO_DI16_1_ch_02_gazanal_b==0){G_B=1;}else{G_B=0;}
-STOP=1;//оборудование в работе!!!
-TurnBitOn(reg_alarm_20,0);
+
+
 //STOP=IO_DI16_1_ch_03_ostanov_kotla;
 //R_A=IO_DI16_1_ch_06_neisp_rashod_a; 
 
 //////P_g=IO_AI6_2_ch_3;
 
-znach_K=ModbusSlaveTCP_PC_MCD_8;
 
 
+if (poverka==1) {
 
-//registr = (IO_DI16_1_ch_03_ostanov_kotla + gaz_maz<<1 + IO_DI16_1_ch_01_gazanal_a<<8 + IO_DI16_1_ch_02_gazanal_b<<9 + IO_DI16_1_ch_06_neisp_rashod_a<<10 + IO_DI16_1_ch_07_neisp_rashod_b<<11 + ras_const<<15);
+G_A=0; // в режим поверки нет бита аварии газаанализатора
 
-
-//0-160
-if ((IO_AI6_2_ch_4<3500)||(IO_AI6_2_ch_4>30000)){ModbusSlaveTCP_HMI_CurDate_9=0;Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_9=(((IO_AI6_2_ch_4-4000.0)/(16000.0))*(Ai2ch04_Hi-Ai2ch04_Lo)+Ai2ch04_Lo);Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Black;} //P
+//0-2000
+if ((poverka_AI6_1_ch_2<3500)||(poverka_AI6_1_ch_2>30000)){znach_1=0; G_A=1; Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Red;} else {znach_1=(((poverka_AI6_1_ch_2-4000.0)/(16000.0))*(ch02_Hi-ch02_Lo)+ch02_Lo);Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Black;}
 //0-500
-if ((IO_AI6_2_ch_5<3500)||(IO_AI6_2_ch_5>30000)){ModbusSlaveTCP_HMI_CurDate_10=0;Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_10=(((IO_AI6_2_ch_5-4000.0)/(16000.0))*(Ai2ch05_Hi-Ai2ch05_Lo)+Ai2ch05_Lo);Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Black;} //T
+if ((poverka_AI6_1_ch_4<3500)||(poverka_AI6_1_ch_4>30000)){znach_2=0; G_A=1; Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Red;} else {znach_2=(((poverka_AI6_1_ch_4-4000.0)/(16000.0))*(ch04_Hi-ch04_Lo)+ch04_Lo);Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Black;}
+//0-21
+if ((poverka_AI6_1_ch_1<3500)||(poverka_AI6_1_ch_1>30000)){znach_4=0; G_A=1; Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Red;} else {znach_4=(((poverka_AI6_1_ch_1-4000.0)/(16000.0))*(ch01_Hi-ch01_Lo)+ch01_Lo);Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Black;}
+//0-500
+if ((poverka_AI6_1_ch_5<3500)||(poverka_AI6_1_ch_5>30000)){znach_7=0; G_A=1; Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Red;} else {znach_7=(((poverka_AI6_1_ch_5-4000.0)/(16000.0))*(ch05_Hi-ch05_Lo)+ch05_Lo);Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Black;}
+//0-15
+if ((poverka_AI6_1_ch_3<3500)||(poverka_AI6_1_ch_3>30000)){znach_6=0; G_A=1; Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Red;} else {znach_6=(((poverka_AI6_1_ch_3-4000.0)/(16000.0))*(ch03_Hi-ch03_Lo)+ch03_Lo);Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Black;}
+//0-15000
+if ((poverka_AI6_1_ch_6<3500)||(poverka_AI6_1_ch_6>30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((poverka_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;}
+//0-21(second channel Oxigen)
+if ((poverka_AI6_2_ch_6<3500)||(poverka_AI6_2_ch_6>30000)){znach_44=0;} else {znach_44=(((poverka_AI6_2_ch_6-4000.0)/(16000.0))*(Ai2ch06_Hi-Ai2ch06_Lo)+Ai2ch06_Lo);}
+
+
+
+if (sim==0) {ras_const=1;}//расчет по константам;
+          
+Screen9.NumericUpDown25.Visible = true;
+Screen9.NumericUpDown26.Visible = true;
+Screen9.NumericUpDown27.Visible = true;
+Screen9.NumericUpDown28.Visible = true;
+Screen9.NumericUpDown29.Visible = true;
+Screen9.NumericUpDown30.Visible = true;
+Screen9.NumericUpDown31.Visible = true;  //O2second 
+         }         
+else     {
+
+//инверсия аварий газанализатора
+if (IO_DI16_1_ch_01_gazanal_a==0){G_A=1;}else{G_A=0;}
+
 
 //0-2000
 if ((IO_AI6_1_ch_2<3500)||(IO_AI6_1_ch_2>30000)){znach_1=0; G_A=1; Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Red;} else {znach_1=(((IO_AI6_1_ch_2-4000.0)/(16000.0))*(ch02_Hi-ch02_Lo)+ch02_Lo);Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Black;}
@@ -44,7 +70,61 @@ if ((IO_AI6_1_ch_5<3500)||(IO_AI6_1_ch_5>30000)){znach_7=0; G_A=1; Gl_Scr_2.Digi
 //0-15
 if ((IO_AI6_1_ch_3<3500)||(IO_AI6_1_ch_3>30000)){znach_6=0; G_A=1; Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Red;} else {znach_6=(((IO_AI6_1_ch_3-4000.0)/(16000.0))*(ch03_Hi-ch03_Lo)+ch03_Lo);Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Black;}
 //0-15000
-if ((IO_AI6_1_ch_6<3500)||(IO_AI6_1_ch_6>30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((IO_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Black;}
+if ((IO_AI6_1_ch_6<3500)||(IO_AI6_1_ch_6>30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((IO_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;}
+
+//0-21(second channel Oxigen)
+if ((IO_AI6_2_ch_6<3500)||(IO_AI6_2_ch_6>30000)){znach_44=0;} else {znach_44=(((IO_AI6_2_ch_6-4000.0)/(16000.0))*(Ai2ch06_Hi-Ai2ch06_Lo)+Ai2ch06_Lo);}
+
+          Screen9.NumericUpDown25.Visible = false;
+          Screen9.NumericUpDown26.Visible = false;
+          Screen9.NumericUpDown27.Visible = false;
+          Screen9.NumericUpDown28.Visible = false;
+          Screen9.NumericUpDown29.Visible = false;
+          Screen9.NumericUpDown30.Visible = false;  
+          Screen9.NumericUpDown31.Visible = false;  //O2second            
+         }          
+//registr = (IO_DI16_1_ch_03_ostanov_kotla + gaz_maz<<1 + IO_DI16_1_ch_01_gazanal_a<<8 + IO_DI16_1_ch_02_gazanal_b<<9 + IO_DI16_1_ch_06_neisp_rashod_a<<10 + IO_DI16_1_ch_07_neisp_rashod_b<<11 + ras_const<<15);
+
+
+//0-160
+if ((IO_AI6_2_ch_4<3500)||(IO_AI6_2_ch_4>30000)){ModbusSlaveTCP_HMI_CurDate_9=0;Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_9=(((IO_AI6_2_ch_4-4000.0)/(16000.0))*(Ai2ch04_Hi-Ai2ch04_Lo)+Ai2ch04_Lo);Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Black;} //P
+//0-500
+if ((IO_AI6_2_ch_5<3500)||(IO_AI6_2_ch_5>30000)){ModbusSlaveTCP_HMI_CurDate_10=0;Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_10=(((IO_AI6_2_ch_5-4000.0)/(16000.0))*(Ai2ch05_Hi-Ai2ch05_Lo)+Ai2ch05_Lo);Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Black;} //T
+
+
+//blocked negotive data
+if (ModbusSlaveTCP_HMI_CurDate_9<0) ModbusSlaveTCP_HMI_CurDate_9=0;  //P
+if (ModbusSlaveTCP_HMI_CurDate_10<0) ModbusSlaveTCP_HMI_CurDate_10=0; //T
+
+if (znach_1<0) {znach_1=0;} //CO
+if (znach_2<0) znach_2=0; //NO
+if (znach_4<0) {znach_4=0;} if (znach_4>21) {znach_4=21;} //O2
+if (znach_7<0) znach_7=0; //CH4
+if (znach_6<0) znach_6=0; //CO2
+if (znach_8<0) znach_8=0; //Bg
+
+//оборудование в работе!!!
+STOP=1;                     //Real_time-->registr-->ModbusSlaveTCP_HMI_Alarm_0
+TurnBitOn(reg_alarm_20,0);  //Hist_20-------------->ModbusSlaveTCP_Rezerv2_0  
+
+//оборудование остановлено!!!
+// Bmin || O2max
+if ((znach_8<ModbusSlaveTCP_PC_MCD_9)||(znach_4>ModbusSlaveTCP_PC_MCD_10))
+{
+STOP=0;                      //Real_time
+TurnBitOff(reg_alarm_20,0);  //Hist_20 
+}
+
+
+
+if ((K_rasch!=0)&&(znach_44==0)) {G_A=1;K_rasch=0;}
+
+Pref.Rect1.Visible = false;
+Pref.Rect2.Visible = false;
+//К=(О2с/О2в)+0,008
+if (K_rasch==0){znach_K=ModbusSlaveTCP_PC_MCD_8; Pref.Rect1.Visible = true;} //К конст
+else {znach_K=(znach_4/znach_44)+0.008; Pref.Rect2.Visible = true;Kizm=znach_K;} //К изм
+
 
 //znach_1=IO_AI6_1_ch_2; //CO+
 //znach_2=IO_AI6_1_ch_4; //NO+
@@ -111,7 +191,7 @@ if (G_A==1){TurnBitOn(reg_alarm_20,8);}//GA
 if (R_A==1){TurnBitOn(reg_alarm_20,10);}//RA
 if (ras_const==1){TurnBitOn(reg_alarm_20,15);}//Rasch_Const
 
-//*******Test**********//ModbusSlaveTCP_HMI_Alarm_0 = registr;
+ModbusSlaveTCP_HMI_Alarm_0 = registr;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -684,7 +764,7 @@ Double B_o_cur_2=0;
 
 
 ///////////////////////Переход газ/мазут, отдаю мгновенное знач уже нормализованное,(тут газ всегда!!!)
-if (gaz_maz==0){Gl_Scr_2.DigitalBox578.Attribute1=" Газ"; Gl_Scr_2.DigitalBox578.Attribute2="м3/ч .";Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;
+if (gaz_maz==0){Gl_Scr_2.DigitalBox578.Attribute1=" Газ"; Gl_Scr_2.DigitalBox578.Attribute2="м3/ч .";
                           ModbusSlaveTCP_HMI_CurDate_7=znach_8; 
                           //ModbusSlaveTCP_HMI_CurDate_8=0;
                           //B_o_cur=(12.37*273*P_g*znach_8)/((T_g+273)*101.32*0.988);
@@ -789,7 +869,7 @@ total_8_g+=znach_8; sred_konc_8_g=total_8_g/s_g;
 s_g++;}                                                                           //Bg среднее
 
                                                                        
-
+if ((21-znach_4)!=0){
 
 //total_8+=B_o_cur;            //Bo среднее
 //sred_konc_8=total_8/s;
@@ -807,6 +887,7 @@ sred_konc_3=total_3/s;
 //total_4+=znach_5 *2.054*(21/(21-znach_4))/3.5;            //конверсия в мг\нм3 NO2 -
 //sred_konc_4=total_4/s;
 
+
 total_5+=(znach_6 *1.96*(21/(21-znach_4))/3.5)*10000;             //конверсия в мг\нм3 CO2 +
 sred_konc_5=total_5/s;
 
@@ -817,6 +898,9 @@ total_7+=znach_7 *0.72*(21/(21-znach_4))/3.5;            //конверсия в
 sred_konc_7=total_7/s;
 
 total_8_m+=znach_K; sred_konc_8_m=total_8_m/s_m; //K
+
+}
+
 s_m++;   
 
 s++;
@@ -842,7 +926,7 @@ Gl_Scr_2.DigitalBox36.Value=sred_konc_7; //CH4_20
 
 if (ras_const==1)
 {
-// Сi(сред конц за 20 мин.)= ModbusSlaveTCP_PC_MCD_0 /( (0,001*35,16)/к * (сред за 20 мин. Вg)/3600  )
+// Сi(сред конц за 20 мин.)= ModbusSlaveTCP_PC_MCD_0 /( (0,001*35,16)/к * (сред за 20 мин. Вg)/3600  )
      sred_konc_1=ModbusSlaveTCP_PC_MCD_0 /  ( 10000.0/3600.0 * (0.001*35.16 /1.078)  );//CO
      sred_konc_2=ModbusSlaveTCP_PC_MCD_1 /  ( 10000.0/3600.0 * 35.16 /1.078 *0.001 );//NO     
      sred_konc_3=ModbusSlaveTCP_PC_MCD_4 /  ( 10000.0/3600.0 * 35.16 /1.078 *0.001 );//NO2
@@ -913,7 +997,7 @@ ModbusSlaveTCP_HMI_AvgDate20_7=sred_konc_8_g;    //Bg_20_PC
 ModbusSlaveTCP_HMI_AvgDate20_8=sred_konc_8_m;    //K
 
 ModbusSlaveTCP_Rezerv2_0=reg_alarm_20;
-ModbusSlaveTCP_HMI_Alarm_0=reg_alarm_20;
+//ModbusSlaveTCP_HMI_Alarm_0=reg_alarm_20;
 reg_alarm_20=0;
 ras_const=0;//сброс тригера расчета по константам
 
@@ -922,13 +1006,13 @@ ras_const=0;//сброс тригера расчета по константам
 
 //ModbusSlaveTCP_HMI_AvgDate20_20=sred_konc_8;    //Bo_20_PC
 
-H20M_Cnt++;
+/////////////////////////H20M_Cnt++;   перенес в !!!!!!!!!!!!!!
 
 ///////Запись в csv файлик///////////////////////////////////
 System.IO.StreamWriter file1 = new System.IO.StreamWriter(path+"Hour.csv");
 System.IO.StreamWriter file_cur = new System.IO.StreamWriter(path+"current.csv",true);///для Лёши
 
-// (0,001*35,16)/к * (сред за 20 мин. Вg)/3600 * Сi(сред конц за 20 мин.)
+// (0,001*35,16)/к * (сред за 20 мин. Вg)/3600 * Сi(сред конц за 20 мин.)
 str00 = str40;
 str40 = str20;
 str20 = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss") + ";" + (sred_konc_1*sred_konc_8_g/3600 * 35.16 /sred_konc_8_m *0.001).ToString() + ";" + (sred_konc_2*sred_konc_8_g/3600 * 35.16 /sred_konc_8_m *0.001).ToString() + ";" + 
@@ -1056,7 +1140,7 @@ conter_izm++;
 
 
 
-StartScheduler(2);
+StartScheduler(2); ///Запуск скрипта синхронизации времени
  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }
