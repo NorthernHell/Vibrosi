@@ -99,15 +99,15 @@
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:02 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:21 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:02 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:21 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:02 28.11.2016</Property>
+        <Property name="Text">13:39:21 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -433,8 +433,171 @@ PrintScreen();
       <Property name="Type">Template</Property>
     </Object>
   </DOCUMENT_ELEMENT>
-  <DOCUMENT_ELEMENT Page="Pref" OnTab="1">
+  <DOCUMENT_ELEMENT Page="Pref" OnTab="1" Active="Yes">
     <Object type="ControlsLib.ScreenFm, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pref" children="Controls">
+      <Object type="ControlsLib.Table, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Table1" children="Controls">
+        <Property name="_Visible">True</Property>
+        <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
+        <Property name="Enable">True</Property>
+        <Property name="Enable_">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument />
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="FontName">Tahoma</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="FontStyle">Regular</Property>
+        <Property name="Fore_Color">0, 0, 0</Property>
+        <Property name="GroupName">
+        </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Table1</Item>
+        </Property>
+        <Property name="Location">48, 432</Property>
+        <Property name="Name">Table1</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Table1</Item>
+        </Property>
+        <Property name="RowCount">1</Property>
+        <Property name="Rows">1</Property>
+        <Property name="SameHeight">True</Property>
+        <Property name="SameWidth">True</Property>
+        <Property name="Size">231, 45</Property>
+        <Property name="Visible_">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument />
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="Ws">
+          <Item type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">115</Item>
+        </Property>
+      </Object>
+      <Object type="ControlsLib.DigitalBox, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DigitalBox578" children="Controls">
+        <Property name="_TagBinding">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument>znach_44</Argument>
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="_Visible">True</Property>
+        <Property name="Attribute1"> O2_влаж</Property>
+        <Property name="Attribute2">% об.</Property>
+        <Property name="Attribute3">
+        </Property>
+        <Property name="Attribute4">
+        </Property>
+        <Property name="AttributeFont">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABJDb250cm9sc0xpYi5NeUZvbnQGBQAAADpWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyLCBTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUpAQAAAAoL">
+            <Argument>Tahoma</Argument>
+            <Argument>8</Argument>
+            <Argument>Regular</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
+        <Property name="Enable">True</Property>
+        <Property name="Enable_">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument />
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="FontName">Tahoma</Property>
+        <Property name="FontSize">8</Property>
+        <Property name="FontStyle">Regular</Property>
+        <Property name="Fore_Color">0, 0, 0</Property>
+        <Property name="GroupName">
+        </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">DigitalBox578</Item>
+        </Property>
+        <Property name="Location">166, 433</Property>
+        <Property name="Name">DigitalBox578</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">DigitalBox578</Item>
+        </Property>
+        <Property name="Size">99, 58</Property>
+        <Property name="TagBinding">znach_44</Property>
+        <Property name="Value">99</Property>
+        <Property name="ValueFontName">Tahoma</Property>
+        <Property name="ValueFontSize">16</Property>
+        <Property name="ValueStyle">Regular</Property>
+        <Property name="Visible_">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument />
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+      </Object>
+      <Object type="ControlsLib.DigitalBox, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DigitalBox577" children="Controls">
+        <Property name="_TagBinding">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument>znach_4</Argument>
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="_Visible">True</Property>
+        <Property name="Attribute1"> O2_сух</Property>
+        <Property name="Attribute2">% об.</Property>
+        <Property name="Attribute3">
+        </Property>
+        <Property name="Attribute4">
+        </Property>
+        <Property name="AttributeFont">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABJDb250cm9sc0xpYi5NeUZvbnQGBQAAADpWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyLCBTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUpAQAAAAoL">
+            <Argument>Tahoma</Argument>
+            <Argument>8</Argument>
+            <Argument>Regular</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
+        <Property name="Enable">True</Property>
+        <Property name="Enable_">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument />
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+        <Property name="FontName">Tahoma</Property>
+        <Property name="FontSize">8</Property>
+        <Property name="FontStyle">Regular</Property>
+        <Property name="Fore_Color">0, 0, 0</Property>
+        <Property name="GroupName">
+        </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">DigitalBox577</Item>
+        </Property>
+        <Property name="Location">58, 433</Property>
+        <Property name="Name">DigitalBox577</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">DigitalBox577</Item>
+        </Property>
+        <Property name="Size">99, 58</Property>
+        <Property name="TagBinding">znach_4</Property>
+        <Property name="Value">99</Property>
+        <Property name="ValueFontName">Tahoma</Property>
+        <Property name="ValueFontSize">16</Property>
+        <Property name="ValueStyle">Regular</Property>
+        <Property name="Visible_">
+          <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
+            <Argument />
+            <Argument>0</Argument>
+          </InstanceDescriptor>
+        </Property>
+      </Object>
       <Object type="ControlsLib.NumericUpDown, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericUpDown23" children="Controls">
         <Property name="_TabIndex">252</Property>
         <Property name="_TagBinding">
@@ -608,7 +771,7 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">%</Item>
         </Property>
-        <Property name="Location">210, 405</Property>
+        <Property name="Location">211, 391</Property>
         <Property name="Name">Label57</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">%</Item>
@@ -652,7 +815,7 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">м3/ч</Item>
         </Property>
-        <Property name="Location">220, 377</Property>
+        <Property name="Location">221, 363</Property>
         <Property name="Name">Label56</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">м3/ч</Item>
@@ -696,13 +859,13 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
         </Property>
-        <Property name="Location">120, 410</Property>
+        <Property name="Location">92, 396</Property>
         <Property name="Name">NumericUpDown21</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
         </Property>
         <Property name="SecurityLevel">9</Property>
-        <Property name="Size">111, 27</Property>
+        <Property name="Size">139, 27</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_10</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
@@ -741,7 +904,7 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">O2max=</Item>
         </Property>
-        <Property name="Location">43, 407</Property>
+        <Property name="Location">14, 393</Property>
         <Property name="Name">Label37</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">O2max=</Item>
@@ -785,14 +948,14 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
         </Property>
-        <Property name="Location">120, 380</Property>
+        <Property name="Location">92, 366</Property>
         <Property name="Maximum">15000</Property>
         <Property name="Name">NumericUpDown22</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
         </Property>
         <Property name="SecurityLevel">9</Property>
-        <Property name="Size">111, 27</Property>
+        <Property name="Size">139, 27</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_9</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
@@ -831,7 +994,7 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Bmin=</Item>
         </Property>
-        <Property name="Location">57, 377</Property>
+        <Property name="Location">28, 363</Property>
         <Property name="Name">Label36</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Bmin=</Item>
@@ -1119,6 +1282,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1131,13 +1298,18 @@ PrintScreen();
         <Property name="FontStyle">Bold</Property>
         <Property name="GroupName">
         </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="Location">662, 399</Property>
         <Property name="Maximum">9999999</Property>
         <Property name="Name">NumericUpDown13</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="SecurityLevel">9</Property>
         <Property name="Size">111, 23</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_5</Property>
-        <Property name="Text">0,00</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1155,6 +1327,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1167,13 +1343,18 @@ PrintScreen();
         <Property name="FontStyle">Bold</Property>
         <Property name="GroupName">
         </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="Location">662, 368</Property>
         <Property name="Maximum">9999999</Property>
         <Property name="Name">NumericUpDown11</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="SecurityLevel">9</Property>
         <Property name="Size">111, 23</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_3</Property>
-        <Property name="Text">0,00</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1191,6 +1372,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1203,13 +1388,18 @@ PrintScreen();
         <Property name="FontStyle">Bold</Property>
         <Property name="GroupName">
         </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="Location">662, 338</Property>
         <Property name="Maximum">9999999</Property>
         <Property name="Name">NumericUpDown10</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="SecurityLevel">9</Property>
         <Property name="Size">111, 23</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_4</Property>
-        <Property name="Text">0,00</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1227,6 +1417,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1239,13 +1433,18 @@ PrintScreen();
         <Property name="FontStyle">Bold</Property>
         <Property name="GroupName">
         </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="Location">662, 308</Property>
         <Property name="Maximum">9999999</Property>
         <Property name="Name">NumericUpDown9</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="SecurityLevel">9</Property>
         <Property name="Size">111, 23</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_1</Property>
-        <Property name="Text">0,00</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1263,6 +1462,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1275,13 +1478,18 @@ PrintScreen();
         <Property name="FontStyle">Bold</Property>
         <Property name="GroupName">
         </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="Location">662, 278</Property>
         <Property name="Maximum">9999999</Property>
         <Property name="Name">NumericUpDown8</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="SecurityLevel">9</Property>
         <Property name="Size">111, 23</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_0</Property>
-        <Property name="Text">0,00</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1343,6 +1551,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -1355,13 +1567,18 @@ PrintScreen();
         <Property name="FontStyle">Bold</Property>
         <Property name="GroupName">
         </Property>
+        <Property name="LayoutStrs">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="Location">661, 430</Property>
         <Property name="Maximum">9999999</Property>
         <Property name="Name">NumericUpDown20</Property>
+        <Property name="NCJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</Item>
+        </Property>
         <Property name="SecurityLevel">9</Property>
         <Property name="Size">111, 23</Property>
         <Property name="TagBinding">ModbusSlaveTCP_PC_MCD_6</Property>
-        <Property name="Text">0,00</Property>
         <Property name="TextAlignRight">True</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -3781,15 +3998,15 @@ Function3();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">28.11.2016 10:57:03</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">29.11.2016 13:39:21</Item>
         </Property>
         <Property name="Location">6, 108</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">28.11.2016 10:57:03</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">29.11.2016 13:39:21</Item>
         </Property>
         <Property name="Size">337, 38</Property>
-        <Property name="Text">28.11.2016 10:57:03</Property>
+        <Property name="Text">29.11.2016 13:39:21</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -4001,16 +4218,16 @@ Function3();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:03 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:22 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="m_TemplateFlag">1</Property>
         <Property name="Name">DateTimeLabel1</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:03 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:22 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:03 28.11.2016</Property>
+        <Property name="Text">13:39:22 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -4466,16 +4683,16 @@ PrintScreen();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:05 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:24 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="m_TemplateFlag">1</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:05 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:24 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:05 28.11.2016</Property>
+        <Property name="Text">13:39:24 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -5417,16 +5634,16 @@ PrintScreen();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:05 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:24 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="m_TemplateFlag">1</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:05 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:24 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:05 28.11.2016</Property>
+        <Property name="Text">13:39:24 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -10191,16 +10408,16 @@ PrintScreen();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:11 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:29 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="m_TemplateFlag">1</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:11 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:29 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:11 28.11.2016</Property>
+        <Property name="Text">13:39:29 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -20827,16 +21044,16 @@ PrintScreen();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:17 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:35 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="m_TemplateFlag">1</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:17 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:35 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:17 28.11.2016</Property>
+        <Property name="Text">13:39:35 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -24171,6 +24388,7 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">0, 0, 255</Property>
+        <Property name="Decimal">2</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -32705,16 +32923,16 @@ PrintScreen();
         <Property name="GroupName">
         </Property>
         <Property name="LayoutStrs">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:17 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:37 29.11.2016</Item>
         </Property>
         <Property name="Location">662, 1</Property>
         <Property name="m_TemplateFlag">1</Property>
         <Property name="Name">DateTimeLabel2</Property>
         <Property name="NCJK">
-          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10:57:17 28.11.2016</Item>
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">13:39:37 29.11.2016</Item>
         </Property>
         <Property name="Size">156, 28</Property>
-        <Property name="Text">10:57:17 28.11.2016</Property>
+        <Property name="Text">13:39:37 29.11.2016</Property>
         <Property name="TextAlign">MiddleCenter</Property>
         <Property name="Visible_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -33909,6 +34127,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -33926,14 +34148,14 @@ PrintScreen();
         <Property name="LayoutStrs">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Location">289, 333</Property>
+        <Property name="Location">289, 52</Property>
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown31</Property>
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_2_ch_6</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34010,6 +34232,10 @@ PrintScreen();
           <Item type="ControlsLib.BandData, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">0;0;Gray;Black;Turquoise;Симуляция;True;False;Pink;;False;Transparent;None;None;0;0</Item>
           <Item type="ControlsLib.BandData, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">1;1;Gray;Black;Turquoise;Симуляция;True;True;Yellow;;False;Transparent;None;None;0;0</Item>
         </Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Clicked">ToggleBit(sim,0);
 </Property>
         <Property name="Enable">True</Property>
@@ -34050,6 +34276,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34089,6 +34319,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34127,6 +34361,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34165,6 +34403,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34203,6 +34445,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34241,6 +34487,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34279,6 +34529,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -34317,6 +34571,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -34341,7 +34599,7 @@ PrintScreen();
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_1_ch_6</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34362,6 +34620,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -34386,7 +34648,7 @@ PrintScreen();
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_1_ch_5</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34407,6 +34669,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -34431,7 +34697,7 @@ PrintScreen();
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_1_ch_4</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34452,6 +34718,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -34476,7 +34746,7 @@ PrintScreen();
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_1_ch_3</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34497,6 +34767,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -34521,7 +34795,7 @@ PrintScreen();
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_1_ch_2</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34542,6 +34816,10 @@ PrintScreen();
           </InstanceDescriptor>
         </Property>
         <Property name="_Visible">True</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Decimal">0</Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
@@ -34566,7 +34844,7 @@ PrintScreen();
         <Property name="NCJK">
           <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">20000</Item>
         </Property>
-        <Property name="Size">124, 24</Property>
+        <Property name="Size">124, 31</Property>
         <Property name="TagBinding">poverka_AI6_1_ch_1</Property>
         <Property name="Text">20000</Property>
         <Property name="TextAlignRight">True</Property>
@@ -34655,7 +34933,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown13</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch06_Lo</Property>
         <Property name="Text">
         </Property>
@@ -34692,7 +34970,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown14</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch06_Hi</Property>
         <Property name="Text">
         </Property>
@@ -34729,7 +35007,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown15</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch05_Lo</Property>
         <Property name="Text">
         </Property>
@@ -34766,7 +35044,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown16</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch05_Hi</Property>
         <Property name="Text">
         </Property>
@@ -34803,7 +35081,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown17</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch04_Lo</Property>
         <Property name="Text">
         </Property>
@@ -34840,7 +35118,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown18</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch04_Hi</Property>
         <Property name="Text">
         </Property>
@@ -34877,7 +35155,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown19</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch03_Lo</Property>
         <Property name="Text">
         </Property>
@@ -34914,7 +35192,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown20</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch03_Hi</Property>
         <Property name="Text">
         </Property>
@@ -34951,7 +35229,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown21</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch02_Lo</Property>
         <Property name="Text">
         </Property>
@@ -34988,7 +35266,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown22</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch02_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35025,7 +35303,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown23</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch01_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35062,7 +35340,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown24</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">Ai2ch01_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35099,7 +35377,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown3</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch06_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35136,7 +35414,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown2</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch06_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35173,7 +35451,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown1</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch05_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35210,7 +35488,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown10</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch05_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35247,7 +35525,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown11</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch04_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35284,7 +35562,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown12</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch04_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35321,7 +35599,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown5</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch03_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35358,7 +35636,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown4</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch03_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35395,7 +35673,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown7</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch02_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35432,7 +35710,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown6</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch02_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35469,7 +35747,7 @@ PrintScreen();
         <Property name="Maximum">9999999999</Property>
         <Property name="Minimum">-99999999999</Property>
         <Property name="Name">NumericUpDown9</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch01_Lo</Property>
         <Property name="Text">
         </Property>
@@ -35506,7 +35784,7 @@ PrintScreen();
         <Property name="Maximum">999999</Property>
         <Property name="Minimum">-999999</Property>
         <Property name="Name">NumericUpDown8</Property>
-        <Property name="Size">97, 24</Property>
+        <Property name="Size">97, 23</Property>
         <Property name="TagBinding">ch01_Hi</Property>
         <Property name="Text">
         </Property>
@@ -35834,6 +36112,10 @@ PrintScreen();
         <Property name="Bands">
           <Item type="ControlsLib.BandData, JerrysLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">0;0;Gray;Black;Turquoise;Закрыть;True;False;Pink;;False;Transparent;None;None;0;0</Item>
         </Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Clicked">ClosePopup(Screen9);
 </Property>
         <Property name="Enable">True</Property>
@@ -35874,6 +36156,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">
@@ -36172,6 +36458,10 @@ PrintScreen();
         </Property>
         <Property name="_Visible">True</Property>
         <Property name="Back_Color">Transparent</Property>
+        <Property name="CJK">
+          <Item type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          </Item>
+        </Property>
         <Property name="Enable">True</Property>
         <Property name="Enable_">
           <InstanceDescriptor member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgYAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpNZW1iZXJUeXBlEEdlbmVyaWNBcmd1bWVudHMBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAQEplcnJ5c0xpYiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAABhDb250cm9sc0xpYi5CaW5kaW5nQ2xhc3MGBQAAACBWb2lkIC5jdG9yKFN5c3RlbS5TdHJpbmcsIEludDMyKQEAAAAKCw==">

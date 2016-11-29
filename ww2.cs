@@ -1,787 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
-<HMIDataSet xmlns="http://tempuri.org/DataSet1.xsd">
-  <xs:schema id="HMIDataSet" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
-    <xs:element name="HMIDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
-      <xs:complexType>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="ProjectTable">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" type="xs:string" default="Panel" minOccurs="0" />
-                <xs:element name="Location" type="xs:string" minOccurs="0" />
-                <xs:element name="Resolution" type="xs:string" minOccurs="0" />
-                <xs:element name="Author" type="xs:string" minOccurs="0" />
-                <xs:element name="Comments" type="xs:string" minOccurs="0" />
-                <xs:element name="Version" type="xs:int" minOccurs="0" />
-                <xs:element name="DefaultLanguage" type="xs:string" default="English" minOccurs="0" />
-                <xs:element name="TitleEnable" type="xs:boolean" default="true" minOccurs="0" />
-                <xs:element name="TitleText" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="StartupExpression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="ShutdownExpression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Width" type="xs:short" default="800" minOccurs="0" />
-                <xs:element name="Height" type="xs:short" default="480" minOccurs="0" />
-                <xs:element name="TitleBar" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="DataVer" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="LogoffTime" type="xs:int" default="30" minOccurs="0" />
-                <xs:element name="DaysOfValidity" type="xs:string" default="0" minOccurs="0" />
-                <xs:element name="LoginExpression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="LogoutExpression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="NetworkAuthorization" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="LogDataPath" type="xs:int" default="0" minOccurs="0" />
-                <xs:element name="TotalDesignTime" type="xs:duration" minOccurs="0" />
-                <xs:element name="Password" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="DataSubVer" type="xs:int" default="0" minOccurs="0" />
-                <xs:element name="AlarmSampingRate" type="xs:int" default="1000" minOccurs="0" />
-                <xs:element name="DefaultTagScan" type="xs:int" default="100" minOccurs="0" />
-                <xs:element name="DefaultLogSpeed" type="xs:int" default="1" minOccurs="0" />
-                <xs:element name="TrendBoxStarIdx" type="xs:short" minOccurs="0" />
-                <xs:element name="TrendBoxCount" type="xs:short" minOccurs="0" />
-                <xs:element name="AlarmBoxStarIdx" type="xs:short" minOccurs="0" />
-                <xs:element name="AlarmBoxCount" type="xs:short" minOccurs="0" />
-                <xs:element name="Multi-linkMode" msprop:Generator_UserColumnName="Multi-linkMode" msprop:Generator_ColumnVarNameInTable="_columnMulti_linkMode" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Multi-linkScanRate" msprop:Generator_UserColumnName="Multi-linkScanRate" msprop:Generator_ColumnVarNameInTable="_columnMulti_linkScanRate" type="xs:short" default="1000" minOccurs="0" />
-                <xs:element name="Multi-linkTimeout" msprop:Generator_UserColumnName="Multi-linkTimeout" msprop:Generator_ColumnVarNameInTable="_columnMulti_linkTimeout" type="xs:short" default="1000" minOccurs="0" />
-                <xs:element name="Multi-linkParameter" msprop:Generator_UserColumnName="Multi-linkParameter" msprop:Generator_ColumnVarNameInTable="_columnMulti_linkParameter" type="xs:string" default="192.168.0.0" minOccurs="0" />
-                <xs:element name="OPCParameter" type="xs:string" minOccurs="0" />
-                <xs:element name="Model" type="xs:string" minOccurs="0" />
-                <xs:element name="SystemEventLog" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="SystemEventPrint" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="ProjectStorage" type="xs:int" default="0" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="ConnectTable">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" type="xs:string" minOccurs="0" />
-                <xs:element name="UpdateRate" type="xs:int" default="1000" minOccurs="0" />
-                <xs:element name="Protocol" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Comment" type="xs:string" minOccurs="0" />
-                <xs:element name="OPCServer" type="xs:string" default="None" minOccurs="0" />
-                <xs:element name="Port" type="xs:short" default="502" minOccurs="0" />
-                <xs:element name="IPAddress" type="xs:string" default="192.168.0.123" minOccurs="0" />
-                <xs:element name="ComPort" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Address" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="BaundRate" type="xs:int" default="38400" minOccurs="0" />
-                <xs:element name="Parity" type="xs:string" default="None" minOccurs="0" />
-                <xs:element name="DataBits" msdata:Caption="Data Bits" type="xs:short" default="8" minOccurs="0" />
-                <xs:element name="StopBits" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="ModuleName" type="xs:string" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="SchedulerTable">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Type" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Action" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Expression" type="xs:string" minOccurs="0" />
-                <xs:element name="Day" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Hour" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Minute" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Second" type="xs:short" default="10" minOccurs="0" />
-                <xs:element name="Millisecond" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Weekly" type="xs:short" default="0" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="EventAlarm">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Tag" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Type" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="SetpointType" type="xs:short" minOccurs="0" />
-                <xs:element name="SetpointValue" type="xs:double" default="0" minOccurs="0" />
-                <xs:element name="SetpointTag" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Group" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Expression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Hysteresis" type="xs:double" default="0" minOccurs="0" />
-                <xs:element name="Job" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Message" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="RateTime" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Decimal" type="xs:short" default="2" minOccurs="0" />
-                <xs:element name="BitWise" type="xs:unsignedInt" default="0" minOccurs="0" />
-                <xs:element name="Print" type="xs:short" default="0" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="Security">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Level" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Password" type="xs:string" default="INITPSWD" minOccurs="0" />
-                <xs:element name="DaysOfValidity" type="xs:short" default="0" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="Language">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="English" type="xs:string" default="" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="EventMethod">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="ScreenName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
-                <xs:element name="EventName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
-                <xs:element name="Parameter" type="xs:string" default="&quot;&quot;" minOccurs="0" />
-                <xs:element name="Method" type="xs:string" minOccurs="0" />
-                <xs:element name="CtrlName" type="xs:string" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="Function">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Expression" type="xs:string" default="" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="DataLog">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Tag" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Trigger" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Method" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="Speed" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Tolerance" type="xs:double" default="1" minOccurs="0" />
-                <xs:element name="MaxPoint" type="xs:unsignedInt" default="1000" minOccurs="0" />
-                <xs:element name="Action" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="Name" type="xs:string" minOccurs="0" />
-                <xs:element name="Comment" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Unit" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Print" type="xs:short" default="1" minOccurs="0" />
-                <xs:element name="OldName" type="xs:string" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="SystemTag">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" type="xs:string" default="Tag" minOccurs="0" />
-                <xs:element name="Type" type="xs:string" default="Analog" minOccurs="0" />
-                <xs:element name="Comment" type="xs:string" minOccurs="0" />
-                <xs:element name="Scan" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="ScanRate" type="xs:int" default="1000" minOccurs="0" />
-                <xs:element name="BindStartIdx" type="xs:short" minOccurs="0" />
-                <xs:element name="BindCount" type="xs:short" minOccurs="0" />
-                <xs:element name="ReadOnly" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="DisplayStartIdx" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="DisplayCount" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="VisibleStartIdx" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="VisibleCount" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="RunModeType" type="xs:short" default="0" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-          <xs:element name="Conversion">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Name" type="xs:string" minOccurs="0" />
-                <xs:element name="Type" type="xs:short" default="0" minOccurs="0" />
-                <xs:element name="EngHigh" type="xs:double" default="100" minOccurs="0" />
-                <xs:element name="EngLow" type="xs:double" default="0" minOccurs="0" />
-                <xs:element name="RangeLow" type="xs:double" default="0" minOccurs="0" />
-                <xs:element name="Ggin" type="xs:double" default="1" minOccurs="0" />
-                <xs:element name="Offset" type="xs:double" default="0" minOccurs="0" />
-                <xs:element name="ReadExpression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="WriteExpression" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="RangeHigh" type="xs:double" default="65535" minOccurs="0" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:choice>
-      </xs:complexType>
-      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-        <xs:selector xpath=".//mstns:Language" />
-        <xs:field xpath="mstns:English" />
-      </xs:unique>
-    </xs:element>
-  </xs:schema>
-  <ProjectTable>
-    <Name>Vibrosi_Mogilev_TEC1</Name>
-    <Location>D:\Projects\Vibrosi_git</Location>
-    <Resolution>HMI750 (800*480)</Resolution>
-    <Author />
-    <Comments />
-    <Version>1</Version>
-    <DefaultLanguage>English</DefaultLanguage>
-    <TitleEnable>true</TitleEnable>
-    <TitleText />
-    <StartupExpression>Function3();
-</StartupExpression>
-    <ShutdownExpression />
-    <Width>800</Width>
-    <Height>480</Height>
-    <TitleBar>1</TitleBar>
-    <DataVer>122</DataVer>
-    <LogoffTime>0</LogoffTime>
-    <DaysOfValidity>0</DaysOfValidity>
-    <LoginExpression />
-    <LogoutExpression />
-    <NetworkAuthorization>0</NetworkAuthorization>
-    <LogDataPath>0</LogDataPath>
-    <TotalDesignTime>P24DT2M8.6577942S</TotalDesignTime>
-    <Password />
-    <DataSubVer>0</DataSubVer>
-    <AlarmSampingRate>1000</AlarmSampingRate>
-    <DefaultTagScan>100</DefaultTagScan>
-    <DefaultLogSpeed>1</DefaultLogSpeed>
-    <Multi-linkMode>0</Multi-linkMode>
-    <Multi-linkScanRate>1000</Multi-linkScanRate>
-    <Multi-linkTimeout>1000</Multi-linkTimeout>
-    <Multi-linkParameter>192.168.0.0</Multi-linkParameter>
-    <Model>HMI750 (800*480)</Model>
-    <SystemEventLog>1</SystemEventLog>
-    <SystemEventPrint>0</SystemEventPrint>
-    <ProjectStorage>0</ProjectStorage>
-  </ProjectTable>
-  <ConnectTable>
-    <Name>OPCMODBUS</Name>
-    <UpdateRate>1000</UpdateRate>
-    <Protocol>0</Protocol>
-    <Comment>IO
-</Comment>
-    <OPCServer>OPCMODBUS</OPCServer>
-    <Port>502</Port>
-    <IPAddress>192.168.0.123</IPAddress>
-    <ComPort>1</ComPort>
-    <Address>1</Address>
-    <BaundRate>38400</BaundRate>
-    <Parity>None</Parity>
-    <DataBits>8</DataBits>
-    <StopBits>1</StopBits>
-  </ConnectTable>
-  <ConnectTable>
-    <Name>ModbusSlaveTCP</Name>
-    <UpdateRate>1000</UpdateRate>
-    <Protocol>2</Protocol>
-    <Comment>TCP</Comment>
-    <OPCServer>ModbusSlaveTCP</OPCServer>
-    <Port>502</Port>
-    <IPAddress>192.168.0.123</IPAddress>
-    <ComPort>1</ComPort>
-    <Address>1</Address>
-    <BaundRate>38400</BaundRate>
-    <Parity>None</Parity>
-    <DataBits>8</DataBits>
-    <StopBits>1</StopBits>
-  </ConnectTable>
-  <SchedulerTable>
-    <Type>1</Type>
-    <Action>1</Action>
-    <Expression>NorthernHell();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>0</Second>
-    <Millisecond>100</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>1</Type>
-    <Action>1</Action>
-    <Expression>Function4();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>10</Second>
-    <Millisecond>0</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>0</Type>
-    <Action>0</Action>
-    <Expression>ruch_on_log();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>0</Second>
-    <Millisecond>100</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>0</Type>
-    <Action>0</Action>
-    <Expression>Function1();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>0</Second>
-    <Millisecond>100</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>1</Type>
-    <Action>0</Action>
-    <Expression>Function2();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>0</Second>
-    <Millisecond>100</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>0</Type>
-    <Action>1</Action>
-    <Expression>beep();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>0</Second>
-    <Millisecond>100</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>0</Type>
-    <Action>0</Action>
-    <Expression>beep2();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>1</Second>
-    <Millisecond>0</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <SchedulerTable>
-    <Type>1</Type>
-    <Action>1</Action>
-    <Expression>Raschet_const();
-</Expression>
-    <Day>0</Day>
-    <Hour>0</Hour>
-    <Minute>0</Minute>
-    <Second>1</Second>
-    <Millisecond>0</Millisecond>
-    <Weekly>0</Weekly>
-  </SchedulerTable>
-  <EventAlarm>
-    <Tag>hard_reset</Tag>
-    <Type>0</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>4</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Сброс автонастройки.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>0</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>hard_reset</Tag>
-    <Type>0</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>1</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Настройка остановлена пользователем.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>0</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_1</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - O2.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_2</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - CO.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_3</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - CO2.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_4</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - NO.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_5</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - CH4.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_6</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - расходомер газа.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_2_ch_4</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - P.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_2_ch_5</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>3500</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Обрыв! Канал - T.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_1_ch_1</Tag>
-    <Type>6</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Потеря связи(Modbus)! AI6 - 1.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_AI6_2_ch_4</Tag>
-    <Type>6</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Потеря связи(Modbus)! AI6 - 2.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>IO_DI16_1_ch_01_gazanal_a</Tag>
-    <Type>6</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>ruch</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Потеря связи(Modbus)! DI16 - 1.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>0</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>STOP</Tag>
-    <Type>0</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Оборудование в работе.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>STOP</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Оборудование остановлено.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>G_A</Tag>
-    <Type>0</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Авария. Газоанализатор.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>G_A</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Газоанализатор исправен.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>R_A</Tag>
-    <Type>0</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Авария. Расходомер.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>R_A</Tag>
-    <Type>1</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Расходомер исправен.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <EventAlarm>
-    <Tag>ras_const</Tag>
-    <Type>0</Type>
-    <SetpointType>0</SetpointType>
-    <SetpointValue>0</SetpointValue>
-    <SetpointTag>nalichie</SetpointTag>
-    <Group>1</Group>
-    <Expression />
-    <Hysteresis>0</Hysteresis>
-    <Job>3</Job>
-    <Message>Расчет по константам.</Message>
-    <RateTime>1</RateTime>
-    <Decimal>2</Decimal>
-    <BitWise>0</BitWise>
-    <Print>0</Print>
-  </EventAlarm>
-  <Security>
-    <Name>Administrator</Name>
-    <Level>9</Level>
-    <Password>INITPSWD</Password>
-    <DaysOfValidity>0</DaysOfValidity>
-  </Security>
-  <Security>
-    <Name>Operator</Name>
-    <Level>1</Level>
-    <Password>INITPSWD</Password>
-    <DaysOfValidity>0</DaysOfValidity>
-  </Security>
-  <Function>
-    <Name>NorthernHell</Name>
-    <Expression>memory=Convert.ToDouble(Gl_Scr_2.Label26.Text);
-//Проверка наличия флэшки блююааать!!!
-//if (System.IO.Directory.Exists("\\Hard Disk\\")) {nalichie=0;} else{nalichie=1;} 
-if (System.IO.Directory.Exists("D:\\")) {nalichie=0;} else{nalichie=1;} 
-//Памяти осталось
 
-
-//Работа с флэхай
-if (nalichie==0)
-{
-if (memory&lt;10)
-{
-     while(i&lt;1)
-    {
-DumpAlarmandData(); 
-        i++;
-     }
-} 
-else
-{
-    i=0;
-}
-}
-else
-{
-i=0;
-} 
-if (MemoryFull) {ClearAlarmandData(); }
-//if (out_off_time==1){out_off_time=0;LogEvent("Set define","Система","Конец испытаний (ПО ВРЕМЕНИ).");}
-
-</Expression>
-  </Function>
-  <Function>
-    <Name>ruch_on_log</Name>
-    <Expression>ToggleBit(ruch,0);
-if (ruch==1){LogEvent("Set define","Пользователь","Ручной режим - ВКЛЮЧЕН.");} 
-else {LogEvent("Set define","Пользователь","Ручной режим - ВЫКЛЮЧЕН.");}</Expression>
-  </Function>
-  <Function>
-    <Name>Function1</Name>
-    <Expression>
-DateTime stopTime = DateTime.Now.AddMinutes(20);
-
-DateTime stopTime55 = DateTime.Now.AddMinutes(60);
-
-Gl_Scr_2.lblMillisecs.Text="";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Hour.ToString("00")+":";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Minute.ToString("00")+":";
-Gl_Scr_2.lblMillisecs.Text+="00 ";
-
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Day.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Month.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Year.ToString("0000");
-
-
-if (conter_izm==2)
-{
-Gl_Scr_2.Label13.Text="";
-Gl_Scr_2.Label13.Text+=stopTime55.Hour.ToString("00")+":";
-Gl_Scr_2.Label13.Text+="00:";
-Gl_Scr_2.Label13.Text+="00 ";
-
-Gl_Scr_2.Label13.Text+=stopTime55.Day.ToString("00")+".";
-Gl_Scr_2.Label13.Text+=stopTime55.Month.ToString("00")+".";
-Gl_Scr_2.Label13.Text+=stopTime55.Year.ToString("0000");
-
-
-}
-
-
-
-
-StartScheduler(5); //запуск основного сприпта если не запущен
- 
-H20M_Cnt++; //увеличение счетчика кол-ва измерений
-
- Gl_Scr_2.lblMillisecs.Visible=true;</Expression>
-  </Function>
-  <Function>
-    <Name>Function2</Name>
-    <Expression>
 //int razmer=69; //для компа
 int razmer=15+4+4; //для панели
 //int razmer=41+4+5; //для панели
@@ -810,19 +27,19 @@ if (poverka==1) {
 G_A=0; // в режим поверки нет бита аварии газаанализатора
 
 //0-2000
-if ((poverka_AI6_1_ch_2&lt;3500)||(poverka_AI6_1_ch_2&gt;30000)){znach_1=0; G_A=1; Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Red;} else {znach_1=(((poverka_AI6_1_ch_2-4000.0)/(16000.0))*(ch02_Hi-ch02_Lo)+ch02_Lo);Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Black;}
+if ((poverka_AI6_1_ch_2<3500)||(poverka_AI6_1_ch_2>30000)){znach_1=0; G_A=1; Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Red;} else {znach_1=(((poverka_AI6_1_ch_2-4000.0)/(16000.0))*(ch02_Hi-ch02_Lo)+ch02_Lo);Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Black;}
 //0-500
-if ((poverka_AI6_1_ch_4&lt;3500)||(poverka_AI6_1_ch_4&gt;30000)){znach_2=0; G_A=1; Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Red;} else {znach_2=(((poverka_AI6_1_ch_4-4000.0)/(16000.0))*(ch04_Hi-ch04_Lo)+ch04_Lo);Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Black;}
+if ((poverka_AI6_1_ch_4<3500)||(poverka_AI6_1_ch_4>30000)){znach_2=0; G_A=1; Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Red;} else {znach_2=(((poverka_AI6_1_ch_4-4000.0)/(16000.0))*(ch04_Hi-ch04_Lo)+ch04_Lo);Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Black;}
 //0-21
-if ((poverka_AI6_1_ch_1&lt;3500)||(poverka_AI6_1_ch_1&gt;30000)){znach_4=0; G_A=1; Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Red;} else {znach_4=(((poverka_AI6_1_ch_1-4000.0)/(16000.0))*(ch01_Hi-ch01_Lo)+ch01_Lo);Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Black;}
+if ((poverka_AI6_1_ch_1<3500)||(poverka_AI6_1_ch_1>30000)){znach_4=0; G_A=1; Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Red;} else {znach_4=(((poverka_AI6_1_ch_1-4000.0)/(16000.0))*(ch01_Hi-ch01_Lo)+ch01_Lo);Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Black;}
 //0-500
-if ((poverka_AI6_1_ch_5&lt;3500)||(poverka_AI6_1_ch_5&gt;30000)){znach_7=0; G_A=1; Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Red;} else {znach_7=(((poverka_AI6_1_ch_5-4000.0)/(16000.0))*(ch05_Hi-ch05_Lo)+ch05_Lo);Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Black;}
+if ((poverka_AI6_1_ch_5<3500)||(poverka_AI6_1_ch_5>30000)){znach_7=0; G_A=1; Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Red;} else {znach_7=(((poverka_AI6_1_ch_5-4000.0)/(16000.0))*(ch05_Hi-ch05_Lo)+ch05_Lo);Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Black;}
 //0-15
-if ((poverka_AI6_1_ch_3&lt;3500)||(poverka_AI6_1_ch_3&gt;30000)){znach_6=0; G_A=1; Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Red;} else {znach_6=(((poverka_AI6_1_ch_3-4000.0)/(16000.0))*(ch03_Hi-ch03_Lo)+ch03_Lo);Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Black;}
+if ((poverka_AI6_1_ch_3<3500)||(poverka_AI6_1_ch_3>30000)){znach_6=0; G_A=1; Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Red;} else {znach_6=(((poverka_AI6_1_ch_3-4000.0)/(16000.0))*(ch03_Hi-ch03_Lo)+ch03_Lo);Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Black;}
 //0-15000
-if ((poverka_AI6_1_ch_6&lt;3500)||(poverka_AI6_1_ch_6&gt;30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((poverka_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;}
+if ((poverka_AI6_1_ch_6<3500)||(poverka_AI6_1_ch_6>30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((poverka_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;}
 //0-21(second channel Oxigen)
-if ((poverka_AI6_2_ch_6&lt;3500)||(poverka_AI6_2_ch_6&gt;30000)){znach_44=0;} else {znach_44=(((poverka_AI6_2_ch_6-4000.0)/(16000.0))*(Ai2ch06_Hi-Ai2ch06_Lo)+Ai2ch06_Lo);}
+if ((poverka_AI6_2_ch_6<3500)||(poverka_AI6_2_ch_6>30000)){znach_44=0;} else {znach_44=(((poverka_AI6_2_ch_6-4000.0)/(16000.0))*(Ai2ch06_Hi-Ai2ch06_Lo)+Ai2ch06_Lo);}
 
 
 
@@ -843,20 +60,20 @@ if (IO_DI16_1_ch_01_gazanal_a==0){G_A=1;}else{G_A=0;}
 
 
 //0-2000
-if ((IO_AI6_1_ch_2&lt;3500)||(IO_AI6_1_ch_2&gt;30000)){znach_1=0; G_A=1; Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Red;} else {znach_1=(((IO_AI6_1_ch_2-4000.0)/(16000.0))*(ch02_Hi-ch02_Lo)+ch02_Lo);Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Black;}
+if ((IO_AI6_1_ch_2<3500)||(IO_AI6_1_ch_2>30000)){znach_1=0; G_A=1; Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Red;} else {znach_1=(((IO_AI6_1_ch_2-4000.0)/(16000.0))*(ch02_Hi-ch02_Lo)+ch02_Lo);Gl_Scr_2.DigitalBox60.ForeColor=System.Drawing.Color.Black;}
 //0-500
-if ((IO_AI6_1_ch_4&lt;3500)||(IO_AI6_1_ch_4&gt;30000)){znach_2=0; G_A=1; Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Red;} else {znach_2=(((IO_AI6_1_ch_4-4000.0)/(16000.0))*(ch04_Hi-ch04_Lo)+ch04_Lo);Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Black;}
+if ((IO_AI6_1_ch_4<3500)||(IO_AI6_1_ch_4>30000)){znach_2=0; G_A=1; Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Red;} else {znach_2=(((IO_AI6_1_ch_4-4000.0)/(16000.0))*(ch04_Hi-ch04_Lo)+ch04_Lo);Gl_Scr_2.DigitalBox59.ForeColor=System.Drawing.Color.Black;}
 //0-21
-if ((IO_AI6_1_ch_1&lt;3500)||(IO_AI6_1_ch_1&gt;30000)){znach_4=0; G_A=1; Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Red;} else {znach_4=(((IO_AI6_1_ch_1-4000.0)/(16000.0))*(ch01_Hi-ch01_Lo)+ch01_Lo);Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Black;}
+if ((IO_AI6_1_ch_1<3500)||(IO_AI6_1_ch_1>30000)){znach_4=0; G_A=1; Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Red;} else {znach_4=(((IO_AI6_1_ch_1-4000.0)/(16000.0))*(ch01_Hi-ch01_Lo)+ch01_Lo);Gl_Scr_2.DigitalBox577.ForeColor=System.Drawing.Color.Black;}
 //0-500
-if ((IO_AI6_1_ch_5&lt;3500)||(IO_AI6_1_ch_5&gt;30000)){znach_7=0; G_A=1; Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Red;} else {znach_7=(((IO_AI6_1_ch_5-4000.0)/(16000.0))*(ch05_Hi-ch05_Lo)+ch05_Lo);Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Black;}
+if ((IO_AI6_1_ch_5<3500)||(IO_AI6_1_ch_5>30000)){znach_7=0; G_A=1; Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Red;} else {znach_7=(((IO_AI6_1_ch_5-4000.0)/(16000.0))*(ch05_Hi-ch05_Lo)+ch05_Lo);Gl_Scr_2.DigitalBox580.ForeColor=System.Drawing.Color.Black;}
 //0-15
-if ((IO_AI6_1_ch_3&lt;3500)||(IO_AI6_1_ch_3&gt;30000)){znach_6=0; G_A=1; Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Red;} else {znach_6=(((IO_AI6_1_ch_3-4000.0)/(16000.0))*(ch03_Hi-ch03_Lo)+ch03_Lo);Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Black;}
+if ((IO_AI6_1_ch_3<3500)||(IO_AI6_1_ch_3>30000)){znach_6=0; G_A=1; Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Red;} else {znach_6=(((IO_AI6_1_ch_3-4000.0)/(16000.0))*(ch03_Hi-ch03_Lo)+ch03_Lo);Gl_Scr_2.DigitalBox1.ForeColor=System.Drawing.Color.Black;}
 //0-15000
-if ((IO_AI6_1_ch_6&lt;3500)||(IO_AI6_1_ch_6&gt;30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((IO_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;}
+if ((IO_AI6_1_ch_6<3500)||(IO_AI6_1_ch_6>30000)){znach_8=0; R_A=1; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Red;} else {znach_8=(((IO_AI6_1_ch_6-4000.0)/(16000.0))*(ch06_Hi-ch06_Lo)+ch06_Lo)/Ro_g; R_A=0; Gl_Scr_2.DigitalBox578.ForeColor=System.Drawing.Color.Blue;}
 
 //0-21(second channel Oxigen)
-if ((IO_AI6_2_ch_1&lt;3500)||(IO_AI6_2_ch_1&gt;30000)){znach_44=0;} else {znach_44=(((IO_AI6_2_ch_1-4000.0)/(16000.0))*(Ai2ch01_Hi-Ai2ch01_Lo)+Ai2ch01_Lo);}
+if ((IO_AI6_2_ch_1<3500)||(IO_AI6_2_ch_1>30000)){znach_44=0;} else {znach_44=(((IO_AI6_2_ch_1-4000.0)/(16000.0))*(Ai2ch01_Hi-Ai2ch01_Lo)+Ai2ch01_Lo);}
 
           Screen9.NumericUpDown25.Visible = false;
           Screen9.NumericUpDown26.Visible = false;
@@ -866,33 +83,33 @@ if ((IO_AI6_2_ch_1&lt;3500)||(IO_AI6_2_ch_1&gt;30000)){znach_44=0;} else {znach_
           Screen9.NumericUpDown30.Visible = false;  
           Screen9.NumericUpDown31.Visible = false;  //O2second            
          }          
-//registr = (IO_DI16_1_ch_03_ostanov_kotla + gaz_maz&lt;&lt;1 + IO_DI16_1_ch_01_gazanal_a&lt;&lt;8 + IO_DI16_1_ch_02_gazanal_b&lt;&lt;9 + IO_DI16_1_ch_06_neisp_rashod_a&lt;&lt;10 + IO_DI16_1_ch_07_neisp_rashod_b&lt;&lt;11 + ras_const&lt;&lt;15);
+//registr = (IO_DI16_1_ch_03_ostanov_kotla + gaz_maz<<1 + IO_DI16_1_ch_01_gazanal_a<<8 + IO_DI16_1_ch_02_gazanal_b<<9 + IO_DI16_1_ch_06_neisp_rashod_a<<10 + IO_DI16_1_ch_07_neisp_rashod_b<<11 + ras_const<<15);
 
 
 //0-160
-if ((IO_AI6_2_ch_4&lt;3500)||(IO_AI6_2_ch_4&gt;30000)){ModbusSlaveTCP_HMI_CurDate_9=0;Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_9=(((IO_AI6_2_ch_4-4000.0)/(16000.0))*(Ai2ch04_Hi-Ai2ch04_Lo)+Ai2ch04_Lo);Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Black;} //P
+if ((IO_AI6_2_ch_4<3500)||(IO_AI6_2_ch_4>30000)){ModbusSlaveTCP_HMI_CurDate_9=0;Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_9=(((IO_AI6_2_ch_4-4000.0)/(16000.0))*(Ai2ch04_Hi-Ai2ch04_Lo)+Ai2ch04_Lo);Gl_Scr_2.DigitalBox581.ForeColor=System.Drawing.Color.Black;} //P
 //0-500
-if ((IO_AI6_2_ch_5&lt;3500)||(IO_AI6_2_ch_5&gt;30000)){ModbusSlaveTCP_HMI_CurDate_10=0;Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_10=(((IO_AI6_2_ch_5-4000.0)/(16000.0))*(Ai2ch05_Hi-Ai2ch05_Lo)+Ai2ch05_Lo);Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Black;} //T
+if ((IO_AI6_2_ch_5<3500)||(IO_AI6_2_ch_5>30000)){ModbusSlaveTCP_HMI_CurDate_10=0;Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Red;} else {ModbusSlaveTCP_HMI_CurDate_10=(((IO_AI6_2_ch_5-4000.0)/(16000.0))*(Ai2ch05_Hi-Ai2ch05_Lo)+Ai2ch05_Lo);Gl_Scr_2.DigitalBox582.ForeColor=System.Drawing.Color.Black;} //T
 
 
 //blocked negotive data
-if (ModbusSlaveTCP_HMI_CurDate_9&lt;0) ModbusSlaveTCP_HMI_CurDate_9=0;  //P
-if (ModbusSlaveTCP_HMI_CurDate_10&lt;0) ModbusSlaveTCP_HMI_CurDate_10=0; //T
+if (ModbusSlaveTCP_HMI_CurDate_9<0) ModbusSlaveTCP_HMI_CurDate_9=0;  //P
+if (ModbusSlaveTCP_HMI_CurDate_10<0) ModbusSlaveTCP_HMI_CurDate_10=0; //T
 
-if (znach_1&lt;0) {znach_1=0;} //CO
-if (znach_2&lt;0) znach_2=0; //NO
-if (znach_4&lt;0) {znach_4=0;} if (znach_4&gt;21) {znach_4=21;} //O2
-if (znach_7&lt;0) znach_7=0; //CH4
-if (znach_6&lt;0) znach_6=0; //CO2
-if (znach_8&lt;0) znach_8=0; //Bg
+if (znach_1<0) {znach_1=0;} //CO
+if (znach_2<0) znach_2=0; //NO
+if (znach_4<0) {znach_4=0;} if (znach_4>21) {znach_4=21;} //O2
+if (znach_7<0) znach_7=0; //CH4
+if (znach_6<0) znach_6=0; //CO2
+if (znach_8<0) znach_8=0; //Bg
 
 //оборудование в работе!!!
-STOP=1;                     //Real_time--&gt;registr--&gt;ModbusSlaveTCP_HMI_Alarm_0
-//TurnBitOn(reg_alarm_20,0);  //reg_alarm_20--------------&gt;ModbusSlaveTCP_Rezerv2_0  
+STOP=1;                     //Real_time-->registr-->ModbusSlaveTCP_HMI_Alarm_0
+//TurnBitOn(reg_alarm_20,0);  //reg_alarm_20-------------->ModbusSlaveTCP_Rezerv2_0  
 
 //оборудование остановлено!!!
 // Bmin || O2max
-if ((znach_8&lt;ModbusSlaveTCP_PC_MCD_9)||(znach_4&gt;ModbusSlaveTCP_PC_MCD_10))//выполнится если одно из условий
+if ((znach_8<ModbusSlaveTCP_PC_MCD_9)||(znach_4>ModbusSlaveTCP_PC_MCD_10))//выполнится если одно из условий
 {
 STOP=0;                      //Real_time
 STOP_hist=0;
@@ -901,7 +118,7 @@ TurnBitOff(reg_alarm_20,0);  //Hist_20
 
 
 
-if ((K_rasch!=0)&amp;&amp;(znach_44==0)) {G_A=1;K_rasch=0;}
+if ((K_rasch!=0)&&(znach_44==0)) {G_A=1;K_rasch=0;}
 
 Pref.Rect1.Visible = false;
 Pref.Rect2.Visible = false;
@@ -922,7 +139,7 @@ else {znach_K=(znach_4/znach_44)+0.008; Pref.Rect2.Visible = true;Kizm=znach_K;}
 
 
 
-if ((G_A==0) &amp;&amp; (R_A==0))//Если нет аварии газонализатора  нет аварии расходомера
+if ((G_A==0) && (R_A==0))//Если нет аварии газонализатора  нет аварии расходомера
 {
 //////////////////////////Забрал с IO 
 ///////////////////////////////////////////////////////////////////////////////////////////////////Топка А
@@ -1004,7 +221,7 @@ int f=0;
 
 //Gl_Scr_4.ComboBox1.Items.Clear();//нулим ComboBox
 Gl_Scr_4.ComboBox2.Items.Clear();//нулим ComboBox
-while (f&lt;N) {
+while (f<N) {
 //Gl_Scr_4.ComboBox1.Items.Add("");
 Gl_Scr_4.ComboBox2.Items.Add("");
 string bred=csvList[(N-1)-f].Substring(0,csvList[(N-1)-f].Length - 0); 
@@ -1023,13 +240,13 @@ if (test){
 System.IO.StreamReader fileDayArhiv = new System.IO.StreamReader(path+ @"Day\Day_"+nameD+".csv");
 
 string strokaArhiv = fileDayArhiv .ReadLine();int stArhiv=0;
-    while ((strokaArhiv !=null) &amp; (strokaArhiv !="null"))
+    while ((strokaArhiv !=null) & (strokaArhiv !="null"))
     {
     string[] parts3 = strokaArhiv .Split(';');
 
     //Групповая обработка
     int b=0;
-       while (b&lt;=7)
+       while (b<=7)
        {
  //      ControlsLib.DigitalBox  D;           
           switch (b+stArhiv*8)
@@ -1283,13 +500,13 @@ if (luper){
 System.IO.StreamReader fileDayArhiv = new System.IO.StreamReader(path+ @"Day\Day_"+Gl_Scr_4.ComboBox2.Items[Tag1].Replace('.','.'));
 
 string strokaArhiv = fileDayArhiv .ReadLine();int stArhiv=0;
-    while ((strokaArhiv !=null) &amp; (strokaArhiv !="null"))
+    while ((strokaArhiv !=null) & (strokaArhiv !="null"))
     {
     string[] parts3 = strokaArhiv .Split(';');
 
     //Групповая обработка
     int b=0;
-       while (b&lt;=7)
+       while (b<=7)
        {
  //      ControlsLib.DigitalBox  D;           
           switch (b+stArhiv*8)
@@ -1600,7 +817,7 @@ Convert.ToInt32(partsa[2]));
             long stopTicks = stopTime.Ticks;
 
 
-if (stopTicks - currTicks &gt; 0)
+if (stopTicks - currTicks > 0)
 {
 DateTime timeToLeft = new DateTime(stopTicks - currTicks);
 //Gl_Scr_2.Label27.Text = (timeToLeft.Day - 1).ToString("00") +":"+timeToLeft.ToLongTimeString();
@@ -1638,7 +855,7 @@ sred_konc_3_ppm=total_3_ppm/s;
 //sred_konc_7_ppm=total_7_ppm/s;
 
 
-//t&amp;P
+//t&P
 //total_T+=T_g;           //сред Tg
 //sred_T=total_T/s;
 //total_P+=P_g;           //сред Pg
@@ -1795,7 +1012,7 @@ ModbusSlaveTCP_HMI_AvgDate20_8=sred_konc_8_m;    //K
 //ModbusSlaveTCP_Rezerv2_0=reg_alarm_20;
 //ModbusSlaveTCP_HMI_Alarm_0=reg_alarm_20;
 reg_alarm_20=1;
-//TurnBitOn(reg_alarm_20,0);  //Hist_20--------------&gt;ModbusSlaveTCP_Rezerv2_0  
+//TurnBitOn(reg_alarm_20,0);  //Hist_20-------------->ModbusSlaveTCP_Rezerv2_0  
 STOP_hist=1;
 ras_const=0;//сброс тригера расчета по константам
 
@@ -1883,13 +1100,13 @@ file_cur.Close();
 System.IO.StreamReader file2 = new System.IO.StreamReader(path+"Hour.csv");
 
 string stroka = file2.ReadLine();int st=0;
-    while ((stroka!=null) &amp; (stroka!="null"))
+    while ((stroka!=null) & (stroka!="null"))
     {
     string[] parts3 = stroka.Split(';');
 
     //Групповая обработка
     int b=0;
-       while (b&lt;=7)
+       while (b<=7)
        {
  //      ControlsLib.DigitalBox  D;           
           switch (b+st*8)
@@ -2345,7 +1562,7 @@ Convert.ToInt32(partsa2[2]));
             long stopTicks2 = stopTime2.Ticks;
 
 
-if (stopTicks2 - currTicks &gt; 0)
+if (stopTicks2 - currTicks > 0)
 {
 DateTime timeToLeft2 = new DateTime(stopTicks2 - currTicks);
 Gl_Scr_2.Label14.Text =  timeToLeft2.Minute.ToString("00") +":"+timeToLeft2.Second.ToString("00");
@@ -2356,7 +1573,7 @@ Gl_Scr_2.Label14.Text =  timeToLeft2.Minute.ToString("00") +":"+timeToLeft2.Seco
 
 
 
-//while (f&lt;N) {Gl_Scr_4.ComboBox1.Items.Add("");string b=csvList[(N-1)-i].Substring(0,csvList[(N-1)-i].Length - 4); Gl_Scr_4.ComboBox1.Items[i]=b.Substring(razmer).Replace('_','.');f++;}
+//while (f<N) {Gl_Scr_4.ComboBox1.Items.Add("");string b=csvList[(N-1)-i].Substring(0,csvList[(N-1)-i].Length - 4); Gl_Scr_4.ComboBox1.Items[i]=b.Substring(razmer).Replace('_','.');f++;}
 //добавляем полей сколько файлов нашли и заполняем в обратной последовательности
 
 
@@ -2394,768 +1611,4 @@ O2_max_store = ModbusSlaveTCP_PC_MCD_10;//O2_max
 
 
 
- </Expression>
-  </Function>
-  <Function>
-    <Name>beep</Name>
-    <Expression>
-DateTime stopTime55 = DateTime.Now.AddMinutes(60); 
-
-
-
-Gl_Scr_2.Label13.Text="";
-Gl_Scr_2.Label13.Text+=stopTime55.Hour.ToString("00")+":";
-Gl_Scr_2.Label13.Text+="00:";
-Gl_Scr_2.Label13.Text+="00 ";
-
-Gl_Scr_2.Label13.Text+=stopTime55.Day.ToString("00")+".";
-Gl_Scr_2.Label13.Text+=stopTime55.Month.ToString("00")+".";
-Gl_Scr_2.Label13.Text+=stopTime55.Year.ToString("0000");</Expression>
-  </Function>
-  <Function>
-    <Name>beep2</Name>
-    <Expression>StopBeep();
- </Expression>
-  </Function>
-  <Function>
-    <Name>Function3</Name>
-    <Expression>nameD=DateTime.Now.ToString("dd.MM.yyyy"). Replace('.','_').Replace(':','_').Replace('-','_').Replace(' ','_');
-path="\\ResidentFlash\\";
-
-if (System.IO.File.Exists(path+@"Day\Day_"+nameD+".csv")) {test=1;} 
-//if  ( Convert.ToInt32(DateTime.Now.Hour)!=0){test=1;}
-
-DateTime stopTimeS = DateTime.Now;
-if ( (Convert.ToInt32(stopTimeS.Minute)&gt;0)&amp;(Convert.ToInt32(stopTimeS.Minute)&lt;=20) ) 
-{
-//DateTime stopTime = DateTime.Now.AddMinutes(1);
-
-DateTime stopTime = DateTime.Now;
-
-Gl_Scr_2.lblMillisecs.Text="";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Hour.ToString("00")+":";
-Gl_Scr_2.lblMillisecs.Text+="20:";
-Gl_Scr_2.lblMillisecs.Text+="00 ";
-
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Day.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Month.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Year.ToString("0000");
-
-}
-/////////////////////////////////////////////////////////////////////////////////////////////
-
-if ( (Convert.ToInt32(stopTimeS.Minute)&gt;20)&amp;(Convert.ToInt32(stopTimeS.Minute)&lt;=40) ) 
-{
-//DateTime stopTime = DateTime.Now.AddMinutes(1);
-
-DateTime stopTime = DateTime.Now;
-
-Gl_Scr_2.lblMillisecs.Text="";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Hour.ToString("00")+":";
-Gl_Scr_2.lblMillisecs.Text+="40:";
-Gl_Scr_2.lblMillisecs.Text+="00 ";
-
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Day.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Month.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Year.ToString("0000");
-conter_izm=1;
-}
-/////////////////////////////////////////////////////////////////////////////////////////////
-
-if ( (Convert.ToInt32(stopTimeS.Minute)&gt;40)&amp;(Convert.ToInt32(stopTimeS.Minute)&lt;=59) ) 
-{
-DateTime stopTime = DateTime.Now.AddHours(1);
-
-//DateTime stopTime = DateTime.Now;
-
-Gl_Scr_2.lblMillisecs.Text="";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Hour.ToString("00")+":";
-Gl_Scr_2.lblMillisecs.Text+="00:";
-Gl_Scr_2.lblMillisecs.Text+="00 ";
-
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Day.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Month.ToString("00")+".";
-Gl_Scr_2.lblMillisecs.Text+=stopTime.Year.ToString("0000");
-conter_izm=2;
-}
-
-
-
-DateTime stopTime55 = DateTime.Now.AddMinutes(60); 
-
-
-Gl_Scr_2.Label13.Text="";
-Gl_Scr_2.Label13.Text+=stopTime55.Hour.ToString("00")+":";
-Gl_Scr_2.Label13.Text+="00:";
-Gl_Scr_2.Label13.Text+="00 ";
-
-Gl_Scr_2.Label13.Text+=stopTime55.Day.ToString("00")+".";
-Gl_Scr_2.Label13.Text+=stopTime55.Month.ToString("00")+".";
-Gl_Scr_2.Label13.Text+=stopTime55.Year.ToString("0000");
-
-
-
-StartScheduler(5);
  
-Gl_Scr_2.lblMillisecs.Visible=true;
-
-
-
-path="\\ResidentFlash\\";
-///////Чтение и заполнение таблицы нах.../////////////////////////////////////////
-System.IO.StreamReader file2 = new System.IO.StreamReader(path+"Hour.csv");
-
-string stroka = file2.ReadLine();int st=0;
-    while ((stroka!=null) &amp; (stroka!="null"))
-    {
-    string[] parts3 = stroka.Split(';');
-
-    //Групповая обработка
-    int b=0;
-       while (b&lt;=7)
-       {
- //      ControlsLib.DigitalBox  D;           
-          switch (b+st*8)
-          {
-          case 0:  Gl_Scr_2.Label2_1.Text=parts3[b];break;
-          case 1:  Gl_Scr_2.DigitalBox2.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 2:  Gl_Scr_2.DigitalBox3.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 3:  Gl_Scr_2.DigitalBox4.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 4:  Gl_Scr_2.DigitalBox5.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 5:  Gl_Scr_2.DigitalBox6.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 6:  Gl_Scr_2.DigitalBox7.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 7:  Gl_Scr_2.DigitalBox8.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          
-          case 8:  Gl_Scr_2.Label2_8.Text=parts3[b];break;
-          case 9:  Gl_Scr_2.DigitalBox9.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 10:  Gl_Scr_2.DigitalBox10.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 11: Gl_Scr_2.DigitalBox11.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 12: Gl_Scr_2.DigitalBox12.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 13: Gl_Scr_2.DigitalBox13.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 14: Gl_Scr_2.DigitalBox14.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 15: Gl_Scr_2.DigitalBox15.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-
-          case 16: Gl_Scr_2.Label2_15.Text=parts3[b];break;
-          case 17: Gl_Scr_2.DigitalBox16.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 18: Gl_Scr_2.DigitalBox17.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 19: Gl_Scr_2.DigitalBox18.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 20: Gl_Scr_2.DigitalBox19.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 21: Gl_Scr_2.DigitalBox20.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 22: Gl_Scr_2.DigitalBox21.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          case 23: Gl_Scr_2.DigitalBox22.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          
-          default: Gl_Scr_2.DigitalBox2.Value=Convert.ToDouble(parts3[b].Replace(',','.'));break;
-          }
-       b++;
-       }
-    stroka = file2.ReadLine();
-    st++;
-    }
-file2.Close();
-
-ModbusSlaveTCP_PC_MCD_0 = CO_store; //CO
-ModbusSlaveTCP_PC_MCD_1 = NO_store; //NO     
-ModbusSlaveTCP_PC_MCD_4 = NO2_store;//NO2
-ModbusSlaveTCP_PC_MCD_5 = CO2_store;//CO2
-ModbusSlaveTCP_PC_MCD_6 = NOx_store;//NOx
-ModbusSlaveTCP_PC_MCD_3 = CH4_store;//CH4
-ModbusSlaveTCP_PC_MCD_8 = K_store;//CH4
-ModbusSlaveTCP_PC_MCD_9 = B_min_store;//CH4
-ModbusSlaveTCP_PC_MCD_10 = O2_max_store;//CH4
-
-reg_alarm_20=1;
-ModbusSlaveTCP_Rezerv2_0 =1;
-STOP_hist=1;</Expression>
-  </Function>
-  <Function>
-    <Name>Function4</Name>
-    <Expression>///////////////////////////////////////////////////////////
-//path="\\ResidentFlash\\";
-//if (System.IO.Directory.Exists(path+"Day\\")) {;}
-//else { System.IO.Directory.CreateDirectory(path+"Day\\");}
-/////////////////////////////////////////////////////////
-
-////////Синхронизация времени ска
-if (ModbusSlaveTCP_PC_Status_0==2){
-//Забрал
-DateTime TimeFromPC =DateTime.FromOADate(ModbusSlaveTCP_PC_DT_0);
-
-            long curTicks = DateTime.Now.Ticks;
-//            long PCTicks = PCTimeTic.Ticks;
-            long PCTicks = TimeFromPC .Ticks;
- 
-
-
-///////мягенько так, Оп.
-if (Soft){
-if (PCTicks - curTicks &gt; 1){SetSystemDateTime("IncrementSecond",null);}
-if (PCTicks - curTicks &lt; -1){SetSystemDateTime("DecrementSecond",null);}
-ModbusSlaveTCP_PC_Status_0=0;
-}
-
-//////По хардкору
-if (Hard){
-SetSystemDateTime("SetYear",TimeFromPC .Year);
-SetSystemDateTime("SetMonth",TimeFromPC .Month);
-SetSystemDateTime("SetDate",TimeFromPC .Day);
-SetSystemDateTime("SetHour",TimeFromPC .Hour);
-SetSystemDateTime("SetMinute",TimeFromPC .Minute);
-SetSystemDateTime("SetSecond",TimeFromPC .Second);
-Hard=0;}
-
-
-}
-
-</Expression>
-  </Function>
-  <Function>
-    <Name>Function5</Name>
-    <Expression>System.Diagnostics.Process proc = new System.Diagnostics.Process();
-if (!(qqqq)) {proc.StartInfo.FileName=@"\ResidentFlash\winvnc.exe";}
-if (qqqq) {proc.StartInfo.FileName=@"\Windows\explorer.exe";}
-proc.Start();
-//proc.WaitForExit();</Expression>
-  </Function>
-  <Function>
-    <Name>Raschet_const</Name>
-    <Expression>if ((s_const_a&gt;1)&amp;(nastroika_a==1)&amp;(G_A!=0)){nastroika_a=3;LogEvent("Set define","потрачено","Настройка остановленна, авария газоанализатора.");
-//s_const_a=1;
-} //Авария газоанализатора А при настройки(потрачено)
-if ((s_const_a&gt;1)&amp;(nastroika_a==1)&amp;(R_A!=0)){nastroika_a=3;LogEvent("Set define","потрачено","Настройка остановленна, авария расходомера газа.");
-//s_const_a=1;
-} //Авария расходомера А при настройки(потрачено)
-
-//if (nastroika_a==3)
-if (hard_reset&gt;5)
-{
-total_1_const=0;
-total_2_const=0;
-total_3_const=0;
-total_4_const=0;
-total_6_const=0;
-total_K_const_a=0;
-
-total_8_g_const=0;
-total_T_const_a=0;
-total_P_const_a=0;
-
-s_const_a=1;
-
-//total_4_const=0;
-//total_5_const=0;
-//total_6_const=0;
-//total_7_const=0;
-}
-
-
-
-if ((s_const_a&lt;432000)&amp;(nastroika_a==1))
-{
-//А
-if (gaz_maz==0) //Если топливо - газ
-     {
-total_1_const+=znach_1;                                   //CO_const_gaz_A
-MCD_0=total_1_const/s_const_a; 
-
-total_2_const+=znach_2;                                 //NO_const_gaz_A
-MCD_1=total_2_const/s_const_a;
-
-total_3_const+=znach_4;                                //O2_const_gaz_A
-MCD_2=total_3_const/s_const_a;
-
-total_4_const+=znach_7;                            //  CH4_const_gaz_A 
-MCD_3=total_4_const/s_const_a;
-
-//total_5_const+=znach_3;                              SO2_const_gaz_A -
-//MCD_4=total_5_const/s_const_a;
-
-total_6_const+=znach_6;                            //  CO2_const_gaz_A 
-MCD_5=total_6_const/s_const_a;
-
-//total_7_const+=znach_5;                              NOx тек нету
-//MCD_6=total_7_const/s_const_a;
-
-total_8_g_const+=znach_8; 
-MCD_9=total_8_g_const/s_const_a;
-
-
-
-//total_T_const_a+=T_g;           //сред T
-//MCD_7=total_T_const_a/s_const_a;
-
-total_K_const_a+=ModbusSlaveTCP_PC_MCD_8;           //сред K
-MCD_8=total_K_const_a/s_const_a;
-
-
-// (0,001*35,16)/к * (сред за 20 мин. Вg)/3600 * Сi(сред конц за 20 мин.)
-
-//for stupid people
-CO_ras_const_G=(MCD_0*1.25*(21/(21-MCD_2))/3.5) * (MCD_9/3600) * (0.001*35.16) / MCD_8 ;
-
-NO_ras_const_G=(MCD_1*2.054*(21/(21-MCD_2))/3.5)*0.13 * (MCD_9/3600) * (0.001*35.16) / MCD_8 ;
-
-NO2_ras_const_G=(MCD_1*2.054*(21/(21-MCD_2))/3.5)*0.8 * (MCD_9/3600) * (0.001*35.16) / MCD_8 ;
-
-CO2_ras_const_G=(MCD_5*1.96*(21/(21-MCD_2))/3.5)*10000 * (MCD_9/3600) * (0.001*35.16) / MCD_8 ;
-
-NOx_ras_const_G=(MCD_1*2.054*(21/(21-MCD_2))/3.5) * (MCD_9/3600) * (0.001*35.16) / MCD_8 ;
-
-CH4_ras_const_G=(MCD_3*0.72*(21/(21-MCD_2))/3.5) * (MCD_9/3600) * (0.001*35.16) / MCD_8 ;
-
-
-ModbusSlaveTCP_PC_MCD_0=CO_ras_const_G;
-ModbusSlaveTCP_PC_MCD_1=NO_ras_const_G;
-ModbusSlaveTCP_PC_MCD_3=CH4_ras_const_G;
-ModbusSlaveTCP_PC_MCD_4=NO2_ras_const_G;
-ModbusSlaveTCP_PC_MCD_5=CO2_ras_const_G;
-ModbusSlaveTCP_PC_MCD_6=NOx_ras_const_G;
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////
-s_const_a++;
-     }
-}
-else
-{
-if (nastroika_a==1){
-nastroika_a=2; 
-s_const_a=1;
-total_1_const=0;
-total_2_const=0;
-total_3_const=0;
-total_4_const=0;
-//total_5_const=0;
-total_6_const=0;
-//total_7_const=0;
-total_8_g_const=0;
-//total_T_const_a=0;
-total_K_const_a=0;
-LogEvent("Set define","успех","Настройка остановленна.");
-}
-} //конец настройки(успех)
-
-
-//конец настройки(успех)
-
-
-
-TimeSpan ts=new TimeSpan (0,0,s_const_a) ;
-Pref.Label58.Text=ts.Days.ToString() + "d " + ts.Hours.ToString("00") + ":" +   ts.Minutes.ToString("00") + ":"  + ts.Seconds.ToString("00") ;</Expression>
-  </Function>
-  <SystemTag>
-    <Name>CurrentPage</Name>
-    <Type>Analog</Type>
-    <Comment>Current Page</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>CurrentUser</Name>
-    <Type>String</Type>
-    <Comment>Current User</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>CurrentSecurityLevel</Name>
-    <Type>Analog</Type>
-    <Comment>Current Security Level</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>TriggerPer100ms</Name>
-    <Type>Digital</Type>
-    <Comment>Trigger Per 100 milli second</Comment>
-    <Scan>0</Scan>
-    <ScanRate>100</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>TriggerPer1sec</Name>
-    <Type>Digital</Type>
-    <Comment>Trigger Per 1 second</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>MemoryFull</Name>
-    <Type>Digital</Type>
-    <Comment>Memory Full</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>MemoryAvailablePresent</Name>
-    <Type>Analog</Type>
-    <Comment>Memory Available Present</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>NumberofRealtimeAlarm</Name>
-    <Type>Analog</Type>
-    <Comment>Number of Realtime Alarm</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>NumberofHistoricalAlarm</Name>
-    <Type>Analog</Type>
-    <Comment>Number of Historical Alarm</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>ScreenSaverTime</Name>
-    <Type>Analog</Type>
-    <Comment>Unit: Minute, 0: Disable</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>BeeperEnable</Name>
-    <Type>Digital</Type>
-    <Comment>Beeper Enable</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>BeepVolume</Name>
-    <Type>Analog</Type>
-    <Comment>0~100</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>Backlight</Name>
-    <Type>Analog</Type>
-    <Comment>0~100</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_Day</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Day</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_Month</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Month</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_Year</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Year</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_Hour</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Hour</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_Min</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Min</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_Sec</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Sec</Comment>
-    <Scan>0</Scan>
-    <ScanRate>100</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>RTC_DayofWeek</Name>
-    <Type>Analog</Type>
-    <Comment>RTC Dayof Week</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>IsDataLoging</Name>
-    <Type>Digital</Type>
-    <Comment>Start or Stop Datalog </Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>SystemDI_1</Name>
-    <Type>Digital</Type>
-    <Comment>Option</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>SystemDI_2</Name>
-    <Type>Digital</Type>
-    <Comment>Option</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>SystemDI_3</Name>
-    <Type>Digital</Type>
-    <Comment>Option</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>1</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>SystemDO_1</Name>
-    <Type>Digital</Type>
-    <Comment>Option</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>SystemDO_2</Name>
-    <Type>Digital</Type>
-    <Comment>Option</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>SystemDO_3</Name>
-    <Type>Digital</Type>
-    <Comment>Option</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>LanguageIndex</Name>
-    <Type>Analog</Type>
-    <Comment>Language Index</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>InputTag</Name>
-    <Type>String</Type>
-    <Comment>For input data function</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>1</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>CurrentRecipeName</Name>
-    <Type>String</Type>
-    <Comment>Current recipe name</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <SystemTag>
-    <Name>CurrentRecipeDataRecord</Name>
-    <Type>String</Type>
-    <Comment>Current recipe data record</Comment>
-    <Scan>0</Scan>
-    <ScanRate>1000</ScanRate>
-    <ReadOnly>0</ReadOnly>
-    <DisplayStartIdx>0</DisplayStartIdx>
-    <DisplayCount>0</DisplayCount>
-    <VisibleStartIdx>0</VisibleStartIdx>
-    <VisibleCount>0</VisibleCount>
-    <RunModeType>0</RunModeType>
-  </SystemTag>
-  <Conversion>
-    <Name>Conversion1</Name>
-    <Type>0</Type>
-    <EngHigh>3200</EngHigh>
-    <EngLow>-3200</EngLow>
-    <RangeLow>-32000</RangeLow>
-    <Ggin>1</Ggin>
-    <Offset>0</Offset>
-    <ReadExpression>Value=((Value-(-32000.0))/(32000.0-(-32000.0)))*(3200.0-(-3200.0))+(-3200.0);</ReadExpression>
-    <WriteExpression>Value=((Value-(-3200.0))*(32000.0-(-32000.0)))/(3200.0-(-3200.0))+(-32000.0);</WriteExpression>
-    <RangeHigh>32000</RangeHigh>
-  </Conversion>
-</HMIDataSet>
